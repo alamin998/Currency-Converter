@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #CFE2FF;
+}
+h1{
+    padding: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 570px;
+}
+.app .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #CFF4FC
+
+}
+.app .intro h3,p{
+    margin-top: 10px;
+}
+.app .intro img{
+    height: 180px;
+    width: 180px;
+}
+.app .converter{
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(151, 155, 153);
+}
+#currency-one , #currency-two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 80px;
+}
+#amount-one , #amount-two{
+    height: 25px ;
+    width: 200px;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+    border: none;
+    color: white;
+}
+select:focus,
+input:focus,
+button:focus{
+    outline: 0;
+}
+.swap-rate{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+.swap-rate .rate{
+    font-size: 20px;
+    color: white;
+
+}
+
+.swap-rate .btn{
+    height: 35px;
+    width: 80px;
+    border: 2px solid rgb(125, 235, 125);
+    border-radius: 5px;
+}
+.swap-rate .btn:hover{
+    background-color:rgb(125, 235, 125);
+}
+footer{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #CFE2FF;
+}
+h1{
+    padding: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
